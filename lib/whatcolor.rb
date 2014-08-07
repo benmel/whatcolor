@@ -1,5 +1,10 @@
 require "whatcolor/version"
+require "RMagick"
 
 module Whatcolor
-  # Your code goes here...
+	class << self
+	  def read(file)
+	  	Magick::Image.read(file)
+	  end
+	end
 end
