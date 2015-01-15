@@ -1,6 +1,11 @@
 # Whatcolor
 
-TODO: Write a gem description
+- Gem which detects the color of pages in a PDF
+- If a page has a certain amount of color it's considered a color page
+- Otherwise it's considered black and white
+- PDFs and images can be analyzed
+- Helpful for printing applications, where number of color/B&W pages needs to be known
+- Requires imagemagick and ghostscript programs
 
 ## Installation
 
